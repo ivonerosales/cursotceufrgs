@@ -49,7 +49,7 @@ Digite a operação matemática:
     else:
         print("Você não digitou um operador válido, execute o programa novamente.")
 
-# Adicionando a função again() à função calculate()
+# Adicionando a função again à função calculate
     again()
 
 def again():
@@ -67,5 +67,5 @@ Digite S para SIM ou N para NÃO.
         
 # Fechando função Welcome
 welcome()
-# Fechando a função calculate()
+# Fechando a função calculate
 calculate()
