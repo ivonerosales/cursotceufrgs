@@ -13,7 +13,7 @@ Bem-vindo(a) à Calculadora!
 ''')
 
 
-# Definindo a função
+# Definindo a função que define a operação
 def calculate():
     operacao = input ("""
 Digite a operação matemática:
@@ -42,10 +42,11 @@ Digite a operação matemática:
         print(numero_1 * numero_2)
 
 # Divisão
+    if numero_1 == 0:
+        print ("Não se pode dividir por zero.")
     elif operacao == "/":
         print("{} / {} = ".format(numero_1, numero_2))
         print(numero_1 / numero_2)
-
     else:
         print("Você não digitou um operador válido, execute o programa novamente.")
 
