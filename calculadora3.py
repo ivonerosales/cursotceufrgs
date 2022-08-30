@@ -23,8 +23,8 @@ Digite a operação matemática:
 / para divisão
  \n """)
 
-    numero_1 = int(input("Digite o primeiro número: "))
-    numero_2 = int(input("Digite o segundo número: "))
+    numero_1 = float(input("Digite o primeiro número: "))
+    numero_2 = float(input("Digite o segundo número: "))
 
 # Adição
     if operacao == "+":
