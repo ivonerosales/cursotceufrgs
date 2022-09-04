@@ -1,2 +1,2 @@
 # cursotceufrgs
-Aulas Curso Políticas Publicas
+Aulas I Curso de Introducao à Programacao para Profissionais de Controle Externo
